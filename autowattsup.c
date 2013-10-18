@@ -1588,7 +1588,7 @@ int main()
 
 //    data = fopen("Data.txt", "w+");
 
-    data = fopen("Data.txt", "a+");
+    data = fopen("/home/pi/src/watts-up-master/Data.txt", "a+");
 
     ret = parse_args();
     if (ret)
