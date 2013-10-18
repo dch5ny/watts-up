@@ -1552,7 +1552,7 @@ static void enable_short_option()
     }*/
 
     wu_options[3].flag = 1;
-    wu_options[3].value = strdup("6");
+    wu_options[3].value = strdup("100000000");
 
     wu_options[7].flag = 1;
 
